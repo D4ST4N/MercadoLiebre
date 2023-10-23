@@ -1,0 +1,90 @@
+body {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+.text-title {
+    font-size: 24px;
+}
+
+.text-price {
+    font-size: 18px;
+}
+
+.text-discount {
+    font-size: 16px;
+}
+
+.text-description {
+    font-size: 16px;
+}
+
+.search-container {
+    padding: 10px;
+
+    .logo {
+        height: 34px;
+
+    }
+
+    .search-bar {
+        padding-top: 10px;
+        }
+}
+.search-bar input {
+    font-size: 10px;
+}
+.btn {
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+}
+.btn-blue{
+    background-color: #1259c3!important ;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.list-styleless {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+
+}
+.flex-center{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display:flex;
+}
+.site-footer{
+    background-color: white;
+    text-align: center;
+}
+.icon-blue{
+    font-size: 30px;
+    padding:30px;
+    padding-bottom: 0px;
+    color: #1259c3 !important;
+    
+}
