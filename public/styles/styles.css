@@ -17,6 +17,10 @@ body {
     text-align: center;
 
 }
+footer{
+    height: 200vw;
+    width: 50.4vh;
+}
 
 a {
     text-decoration: inherit;
