@@ -46,6 +46,7 @@ a {
 }
 
 .search-container {
+    display: flex;
     text-align: left;
     padding: 3%;
 
@@ -86,6 +87,9 @@ a {
     text-decoration: none;
     padding: 0px;
     text-align: left;
+    display: flex;
+    justify-content: space-between
+    
 
 }
 .flex-center{
@@ -93,6 +97,7 @@ a {
     margin-bottom: 30px;
     justify-content: center;
     display:flex;
+    
 }
 .site-footer{
     background-color: white;
