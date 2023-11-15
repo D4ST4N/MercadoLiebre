@@ -101,7 +101,8 @@ a {
     padding: 0px;
     text-align: left;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    
     
 }
 .flex-center{
@@ -144,7 +145,7 @@ a {
     
 }
 .background-color{
-    background-color:#B3B6B7 ;
+    background-color:#eeeded ;
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
@@ -239,6 +240,9 @@ a {
     }
     .list-styleless{
         width: 48%;
-        
+        display:none;
+    }
+    .list{
+        display: none;
     }
 }

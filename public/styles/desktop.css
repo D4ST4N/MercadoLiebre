@@ -1,4 +1,5 @@
 @media  (min-width:1024px) {
+
     .menu-btn{display: none;}
         .img{
             width: 100%;
@@ -20,8 +21,20 @@
             margin: 3px;
             margin-bottom: 15%;
             margin-top: 15%;
+            box-shadow: 2px 2px 9px 4px rgba(0, 0, 0, 0.6);
+            margin-left: 4%;
     
     
+        }
+        .articulos:hover h4{
+            height: 50px !important;
+            font-weight: 300;
+            transition: all 800ms;
+            overflow: hidden;
+            display: inline-block;
+            font-size: 19px;
+            padding-left: 5%;
+            margin-top: 15%;
         }
         .titulo{
             display: flex;
@@ -39,7 +52,7 @@
             display: flex;
         }
         .textos{
-            width: 50%;
+            width: 60%;
         }
         .text-discount {
             font-size: 16px;
@@ -50,21 +63,24 @@
         }
         
         .text-description {
-            font-size: 16px;
+            font-size: 0px;
             color:#B3B6B7;
             width: 50%;
             position: absolute;
             padding-left: 13%;
             margin-top: 18%;
-    }.search-container{
+            height: 0;
+            
+    }
+    .search-container{
         width: 50%;
     }
     .btn{
         display: flex;
         position: relative;
-        top: -22% !important ;
-        left: 100% !important;
-        width: 20% !important;
+        top: -25% !important;
+        left: 103% !important;
+        width: 10% !important;
     }
     
     .list-stylelesss{ 
@@ -85,7 +101,7 @@
         justify-content: space-between;
         width: 40%;
         position: absolute;
-        top: 24%;
+        top: 18%;
         left: 49%;
     }
     .text-center{
@@ -120,3 +136,14 @@
         width: 100%;
     }
     
+    .btn-deliveries:hover i{
+        transform: rotate(-90deg);
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        height: 70%;
+    }
+    .icons-header{
+        font-size: 35px;
+    }
